@@ -4,62 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment Simplotel</title>
-    <link rel="stylesheet" href="./resources/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="navbar">
-      <nav class="nav-links">
+      <nav class="nav-links" id="menu">
         <a href="#">Home</a>
         <a href="#">Order</a>
         <a href="#">Food</a>
         <a href="#">Restaurant</a>
         <a href="#">Testimonials</a>
         <a href="#">Contact Us</a>
-        <a href="#"
-          ><img class="menu-bar" src="./images/menu-bar.png" alt="☰"
-        /></a>
       </nav>
+      <img class="menu-bar" src="./images/menu-bar.png" alt="☰" onclick="toggleMenu()" />
     </header>
 
     <section class="hero">
       <div class="hero-text">
-        <h1>Lorem, ipsum.</h1>
+        <h1>LOREM IPSUM</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odit
-          necessitatibus modi a. Tenetur odio sapiente rem nihil, placeat
-          maiores blanditiis voluptas optio labore ipsa quibusdam iure
-          necessitatibus recusandae atque?
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id
+          est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus
+          euismod lorem in, sollicitudin viverra eros. Donec dictum luctus quam
+          ut tristique. Curabitur nec faucibus purus. Quisque congue sem nec
+          justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac porta
+          viverra.
         </p>
-        <button type="button"></button>
+        <button type="button">Click Me</button>
       </div>
       <div class="hero-image">
         <img
           src="./images/pexels-robin-stickel-70497.jpg"
-          alt="Delicious Food"
+          alt="Delicious Burger with Fries"
         />
       </div>
     </section>
 
     <section class="images">
-      <div class="images-grid">
-        <img
-          src="images/pexels-rachel-claire-6752433.jpg"
-          alt="rachel-claire"
-        />
-        <img src="images/pexels-eva-bronzini-6141651.jpg" alt="eva-bronzini" />
-        <img
-          src="images/pexels-mister-mister-3434523.jpg"
-          alt="mister-mister"
-        />
-      </div>
-      <div class="text-box">
-        <p>Lorem, ipsum.</p>
-        <h1>Lorem ipsum dolor sit.</h1>
-        <a href="#">
-          <p>click</p>
-          <img src="./images/icons8-arrow-30.png" alt="arrow-icon" />
-        </a>
+      <div class="images-container">
+        <div class="images-grid">
+          <div class="images-left">
+            <img
+              src="images/pexels-rachel-claire-6752433.jpg"
+              alt="Restaurant"
+            />
+            <img
+              src="images/pexels-eva-bronzini-6141651.jpg"
+              alt="Outdoor Dining"
+            />
+          </div>
+          <div class="images-right">
+            <img src="images/pexels-mister-mister-3434523.jpg" alt="Food" />
+          </div>
+        </div>
+        <div class="text-box">
+          <p>LOREM IPSUM</p>
+          <h1>LOREM IPSUM SET ADEMIR</h1>
+          <a href="#">
+            <span>Click</span>
+            <img src="./images/icons8-arrow-30.png" alt="arrow-icon" />
+          </a>
+        </div>
       </div>
     </section>
   </body>
+  <script src="./js/script.js"></script>
 </html>
