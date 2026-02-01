@@ -7,19 +7,27 @@
   border: none;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 /* Disable the text inflation algorithm */
 html {
   -webkit-text-size-adjust: none; /* for iOS Safari */
   text-size-adjust: none; /* for other mobile browsers */
 }
 
+
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.menu-bar{
+    width: 30px;
+    height: 30px;
 }
 
 label,
